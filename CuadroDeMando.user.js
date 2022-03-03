@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name         CuadroMandoSEMF
+// @namespace    http://tampermonkey.net/
+// @version      3.1.3
+// @description  Search buttons
+// @author       Alexander Vargas
+// @match        https://soporte.gestionuniversitariasigma.com/sportal/control/cuadroMando*
+// @grant        none
+
+// ==/UserScript==
 (function() {
     'use strict';
     // Titulo de la pestaña
@@ -39,7 +49,7 @@
     createButton('FIRMA', 'WSFDS,WSDIS,GDAS,GFIDI,WSFLS', divButtons);
     createButton('EDAS', 'EDAS', divButtons);
     createButton('TIS', 'TIS', divButtons);
-    createButton('MINE', 'EXAS,CDS10,TCSO,STES', divButtons);
+    createButton('MINE2', 'EXAS,CDS10,TCSO,STES', divButtons);
 })();
 
 function createButton(nombre, valores, zone) {

@@ -1,4 +1,4 @@
-(function() {
+function cuadroDeMando() {
     'use strict';
     // Titulo de la pestaña
     setTimeout(function(){
@@ -40,7 +40,7 @@
     createButton('EDAS', 'EDAS', divButtons);
     createButton('TIS', 'TIS', divButtons);
     createButton('MINE5', 'EXAS,CDS10,TCSO,STES', divButtons);
-})();
+}
 
 function createButton(nombre, valores, zone) {
     const div = document.createElement('div');

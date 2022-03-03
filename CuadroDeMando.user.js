@@ -49,7 +49,7 @@
     createButton('FIRMA', 'WSFDS,WSDIS,GDAS,GFIDI,WSFLS', divButtons);
     createButton('EDAS', 'EDAS', divButtons);
     createButton('TIS', 'TIS', divButtons);
-    createButton('MINE2', 'EXAS,CDS10,TCSO,STES', divButtons);
+    createButton('MINE10', 'EXAS,CDS10,TCSO,STES', divButtons);
 })();
 
 function createButton(nombre, valores, zone) {
